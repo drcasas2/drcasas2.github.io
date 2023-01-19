@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+a:link {
+    color: white;
+    /* background-color: darkblue; */
+    transition-duration: 0.5s;
+    /* border: red solid 2px; */
+}
+
+a:link:hover {
+    color: darkblue !important;
+    /* background-color: white; */
+    transition-duration: 0.5s;
+}
+
+a:visited {
+    transition-duration: 0.5s;
+    color: rgb(117, 195, 255);
+}
+
+ nav li {
+    /* display: block; */
+    position: relative;
+    height: auto;
+    padding: 5px;
+    /* margin: 0 auto; */
+    border: skyblue solid 2px;
+} 
+
+nav li:hover {
+    color: darkblue !important;
+    background: white ;
+    transition-duration: 0.5s;
+}
+
+nav {
+    display: block;
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    color: white;
+    background: darkblue;
+    transition-duration: 0.5s;
+}
+
+.DRC-Logo {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+img[src*='./images/DRC-Properties-Logo.png'] {
+    width: 350px;
+    margin: 0;
+}
+
+.motto {
+    text-align: center;
+    color: skyblue;
+    background: darkblue;
+    font-size: 30px;
+    font-style: italic;
+    transition-duration: 0.5s;
+    margin: 0;
+    padding: 5px;
+}
+
+.motto:hover {
+    color: darkblue;
+    background: skyblue;
+    transition-duration: 0.5s;
+}
+
+.intro {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    /* left: 200px;
+    right: 200px; */
+    /* border: red solid 2px; */
+}
+
+/* li {
+    color: white;
+    background: darkblue;
+    font-family: Arial;
+    transition-duration: 0.5s;
+} */
+
+li:hover {
+    color: darkblue;
+    transition-duration: 0.5s;
+} 
+
+header, .motto, .DRC-Logo {
+    background: darkblue;
+}
